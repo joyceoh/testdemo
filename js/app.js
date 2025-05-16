@@ -12,7 +12,7 @@ function login(userInfo = {}) {
     hideLoginModal();
 
     // this sure would be a great place to handle any identification stuff
-/**pendo.initialize({
+pendo.initialize({
    visitor: {
        id:              email,   // Required if user is logged in
        email:           email
@@ -31,7 +31,7 @@ function login(userInfo = {}) {
        // You can add any additional account level key-values here,
        // as long as it's not one of the above reserved names.
    }
-});**/
+});
 
 const emailCookie = "VISITOR-UNIQUE-ID";
 const departmentCookie = "ACCOUNT-UNIQUE-ID";
